@@ -85,3 +85,14 @@ const scrollReveal = function () {
 scrollReveal();
 
 addEventOnElem(window, "scroll", scrollReveal);
+
+const carteira = document.querySelector("[data-carteira]");
+const conteinerLogin = document.querySelector(".conteiner-login");
+const botaoFechar = document.querySelector(".button-login");
+
+carteira.addEventListener("click", () => {
+  conteinerLogin.classList.add("active");
+});
+botaoFechar.addEventListener("click", () => {
+  conteinerLogin.classList.remove("active");
+});

@@ -10,7 +10,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./assets/images/logo.svg" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -23,6 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -35,7 +36,7 @@
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" width="32" height="32" alt="Cryptex logo">
+        <img src="./assets/images/logo.svg" width="32" height="32" alt="Cryptex logo" class="logo-img">
         Cryptex
       </a>
 
@@ -43,19 +44,19 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link active" data-nav-link>Homepage</a>
+            <a href="#" class="navbar-link active" data-nav-link>Pagina Inicial</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Buy Crypto</a>
+            <a href="#" class="navbar-link" data-nav-link>Compre criptografia</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Markets</a>
+            <a href="#" class="navbar-link" data-nav-link>Mercados</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-nav-link>Sell Crypto</a>
+            <a href="#" class="navbar-link" data-nav-link>Vender criptografia</a>
           </li>
 
           <li class="navbar-item">
@@ -75,7 +76,7 @@
         <span class="line line-3"></span>
       </button>
 
-      <a href="#" class="btn btn-outline">Wallet</a>
+      <a href="#" class="btn btn-outline carteira" data-carteira>Carteira</a>
 
     </div>
   </header>
@@ -96,13 +97,13 @@
 
           <div class="hero-content">
 
-            <h1 class="h1 hero-title">Buy & Sell Digital Assets In The Cryptex</h1>
+            <h1 class="h1 hero-title">Compre e venda ativos digitais na Cryptex</h1>
 
             <p class="hero-text">
-              Coin Cryptex is the easiest, safest, and fastest way to buy & sell crypto asset exchange.
+              Coin Cryptex é a maneira mais fácil, segura e rápida de comprar e vender troca de ativos criptográficos.
             </p>
 
-            <a href="#" class="btn btn-primary">Get started now</a>
+            <a href="#" class="btn btn-primary">Comece agora</a>
 
           </div>
 
@@ -129,7 +130,7 @@
             <ul class="tab-nav">
 
               <li>
-                <button class="tab-btn active">Crypto</button>
+                <button class="tab-btn active">Criptografia</button>
               </li>
 
               <li>
@@ -145,7 +146,7 @@
               </li>
 
               <li>
-                <button class="tab-btn">Metaverse</button>
+                <button class="tab-btn">Metaverso</button>
               </li>
 
               <li>
@@ -275,9 +276,9 @@
         <div class="container">
 
           <div class="title-wrapper">
-            <h2 class="h2 section-title">Market Update</h2>
+            <h2 class="h2 section-title">Atualização de mercado</h2>
 
-            <a href="#" class="btn-link">See All Coins</a>
+            <a href="#" class="btn-link">Ver todas as cryptos</a>
           </div>
 
           <div class="market-tab">
@@ -285,19 +286,19 @@
             <ul class="tab-nav">
 
               <li>
-                <button class="tab-btn active">View All</button>
+                <button class="tab-btn active">Ver tudo</button>
               </li>
 
               <li>
-                <button class="tab-btn">Metaverse</button>
+                <button class="tab-btn">Metaverso</button>
               </li>
 
               <li>
-                <button class="tab-btn">Entertainment</button>
+                <button class="tab-btn">Entretenimento</button>
               </li>
 
               <li>
-                <button class="tab-btn">Energy</button>
+                <button class="tab-btn">Energia</button>
               </li>
 
               <li>
@@ -305,11 +306,11 @@
               </li>
 
               <li>
-                <button class="tab-btn">Gaming</button>
+                <button class="tab-btn">Jogos</button>
               </li>
 
               <li>
-                <button class="tab-btn">Music</button>
+                <button class="tab-btn">Música</button>
               </li>
 
             </ul>
@@ -324,15 +325,15 @@
 
                   <th class="table-heading" scope="col">#</th>
 
-                  <th class="table-heading" scope="col">Name</th>
+                  <th class="table-heading" scope="col">Nome</th>
 
-                  <th class="table-heading" scope="col">Last Price</th>
+                  <th class="table-heading" scope="col">Último preço</th>
 
                   <th class="table-heading" scope="col">24h %</th>
 
-                  <th class="table-heading" scope="col">Market Cap</th>
+                  <th class="table-heading" scope="col">Valor de mercado</th>
 
-                  <th class="table-heading" scope="col">Last 7 Days</th>
+                  <th class="table-heading" scope="col">Últimos 7 dias</th>
 
                   <th class="table-heading"></th>
 
@@ -432,7 +433,7 @@
                       <img src="./assets/images/coin-3.svg" width="20" height="20" alt="Tether logo" class="img">
 
                       <h3>
-                        <a href="#" class="coin-name">Tether <span class="span">USDT/USD</span></a>
+                        <a href="#" class="coin-name">Tether<span class="span">USDT/USD</span></a>
                       </h3>
                     </div>
                   </td>
@@ -469,7 +470,7 @@
                       <img src="./assets/images/coin-4.svg" width="20" height="20" alt="BNB logo" class="img">
 
                       <h3>
-                        <a href="#" class="coin-name">BNB <span class="span">BNB/USD</span></a>
+                        <a href="#" class="coin-name">BNB<span class="span">BNB/USD</span></a>
                       </h3>
                     </div>
                   </td>
@@ -506,7 +507,7 @@
                       <img src="./assets/images/coin-5.svg" width="20" height="20" alt="Solana logo" class="img">
 
                       <h3>
-                        <a href="#" class="coin-name">Solana <span class="span">SOL</span></a>
+                        <a href="#" class="coin-name">Solana<span class="span">SOL</span></a>
                       </h3>
                     </div>
                   </td>
@@ -580,7 +581,7 @@
                       <img src="./assets/images/coin-7.svg" width="20" height="20" alt="Cardano logo" class="img">
 
                       <h3>
-                        <a href="#" class="coin-name">Cardano <span class="span">ADA</span></a>
+                        <a href="#" class="coin-name">Cardano<span class="span">ADA</span></a>
                       </h3>
                     </div>
                   </td>
@@ -617,7 +618,7 @@
                       <img src="./assets/images/coin-8.svg" width="20" height="20" alt="Avalanche logo" class="img">
 
                       <h3>
-                        <a href="#" class="coin-name">Avalanche <span class="span">AVAX</span></a>
+                        <a href="#" class="coin-name">Avalanche<span class="span">AVAX</span></a>
                       </h3>
                     </div>
                   </td>
@@ -658,10 +659,10 @@
       <section class="section instruction" aria-label="instruction" data-section>
         <div class="container">
 
-          <h2 class="h2 section-title">How It Work</h2>
+          <h2 class="h2 section-title">Como isso funciona?</h2>
 
           <p class="section-text">
-            Stacks is a production-ready library of stackable content blocks built in React Native.
+            Stacks é uma biblioteca pronta para produção de blocos de conteúdo empilháveis construída em React Native.
           </p>
 
           <ul class="instruction-list">
@@ -673,12 +674,12 @@
                   <img src="./assets/images/instruction-1.png" width="96" height="96" loading="lazy" alt="Step 1" class="img">
                 </figure>
 
-                <p class="card-subtitle">Step 1</p>
+                <p class="card-subtitle">Passo 1</p>
 
                 <h3 class="h3 card-title">Download</h3>
 
                 <p class="card-text">
-                  Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.
+                  Stacks é uma biblioteca pronta para produção de blocos de conteúdo empilháveis construída em React Native.
                 </p>
 
               </div>
@@ -691,12 +692,12 @@
                   <img src="./assets/images/instruction-2.png" width="96" height="96" loading="lazy" alt="Step 2" class="img">
                 </figure>
 
-                <p class="card-subtitle">Step 2</p>
+                <p class="card-subtitle">Passo 2</p>
 
-                <h3 class="h3 card-title">Connect Wallet</h3>
+                <h3 class="h3 card-title">Conectar Carteira</h3>
 
                 <p class="card-text">
-                  Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.
+                  Stacks é uma biblioteca pronta para produção de blocos de conteúdo empilháveis construída em React Native.
                 </p>
 
               </div>
@@ -709,12 +710,12 @@
                   <img src="./assets/images/instruction-3.png" width="96" height="96" loading="lazy" alt="Step 3" class="img">
                 </figure>
 
-                <p class="card-subtitle">Step 3</p>
+                <p class="card-subtitle">Passo 3</p>
 
-                <h3 class="h3 card-title">Start Trading</h3>
+                <h3 class="h3 card-title">Começar a Negociar</h3>
 
                 <p class="card-text">
-                  Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.
+                  Stacks é uma biblioteca pronta para produção de blocos de conteúdo empilháveis construída em React Native.
                 </p>
 
               </div>
@@ -727,12 +728,12 @@
                   <img src="./assets/images/instruction-4.png" width="96" height="96" loading="lazy" alt="Step 4" class="img">
                 </figure>
 
-                <p class="card-subtitle">Step 4</p>
+                <p class="card-subtitle">Passo 3</p>
 
-                <h3 class="h3 card-title">Earn Money</h3>
+                <h3 class="h3 card-title">Ganhar dinheiro</h3>
 
                 <p class="card-text">
-                  Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.
+                  Stacks é uma biblioteca pronta para produção de blocos de conteúdo empilháveis construída em React Native.
                 </p>
 
               </div>
@@ -760,12 +761,10 @@
 
           <div class="about-content">
 
-            <h2 class="h2 section-title">What Is Cryptex</h2>
+            <h2 class="h2 section-title">O que é Criptex?</h2>
 
             <p class="section-text">
-              Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot
-              Trade, Futures
-              Trade, P2P, Staking, Mining, and margin.
+              Experimente uma variedade de negociações em Bitcoin. Você pode usar vários tipos de transações de moedas, como negociação à vista, negociação de futuros, P2P, piquetagem, mineração e margem.
             </p>
 
             <ul class="section-list">
@@ -774,13 +773,11 @@
                 <div class="title-wrapper">
                   <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
-                  <h3 class="h3 list-title">View real-time cryptocurrency prices</h3>
+                  <h3 class="h3 list-title">Veja os preços das criptomoedas em tempo real</h3>
                 </div>
 
                 <p class="item-text">
-                  Experience a variety of trading on Bitcost. You can use various types of coin transactions such as
-                  Spot Trade, Futures
-                  Trade, P2P, Staking, Mining, and margin.
+                  Experimente uma variedade de negociações em Bitcoin. Você pode usar vários tipos de transações de moedas, como negociação à vista, negociação de futuros, P2P, piquetagem, mineração e margem.
                 </p>
               </li>
 
@@ -788,19 +785,17 @@
                 <div class="title-wrapper">
                   <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
-                  <h3 class="h3 list-title">Buy and sell BTC, ETH, XRP, OKB, Etc...</h3>
+                  <h3 class="h3 list-title">Compre e venda BTC, ETH,XRP, OKB, etc...</h3>
                 </div>
 
                 <p class="item-text">
-                  Experience a variety of trading on Bitcost. You can use various types of coin transactions such as
-                  Spot Trade, Futures
-                  Trade, P2P, Staking, Mining, and margin.
+                  Experimente uma variedade de negociações em Bitcoin. Você pode usar vários tipos de transações de moedas, como negociação à vista, negociação de futuros, P2P, piquetagem, mineração e margem.
                 </p>
               </li>
 
             </ul>
 
-            <a href="#" class="btn btn-primary">Explore More</a>
+            <a href="#" class="btn btn-primary">Explore mais</a>
 
           </div>
 
@@ -820,10 +815,10 @@
 
           <div class="app-content">
 
-            <h2 class="h2 section-title">Free Your Money & Invest With Confident</h2>
+            <h2 class="h2 section-title">Libere seu dinheiro e invista com confiança</h2>
 
             <p class="section-text">
-              With Cryptor Trade, you can be sure your trading skills are matched
+              Com o Cryptor Trade, você pode ter certeza de que suas habilidades de negociação serão compatíveis
             </p>
 
             <ul class="section-list">
@@ -832,11 +827,11 @@
                 <div class="title-wrapper">
                   <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
-                  <h3 class="h3 item-title">Buy, Sell, And Trade On The Go</h3>
+                  <h3 class="h3 item-title">Compre, venda e negocie em qualquer lugar</h3>
                 </div>
 
                 <p class="item-text">
-                  Manage Your Holdings From Your Mobile Decive
+                  Gerencie seus acervos a partir do seu dispositivo móvel
                 </p>
               </li>
 
@@ -844,11 +839,11 @@
                 <div class="title-wrapper">
                   <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
 
-                  <h3 class="h3 item-title">Take Control Of Your Wealth</h3>
+                  <h3 class="h3 item-title">Assuma o controle de sua riqueza</h3>
                 </div>
 
                 <p class="item-text">
-                  Rest Assured You (And Only You) Have Access To Your Funds
+                  Tenha certeza de que você (e somente você) terá acesso aos seus fundos
                 </p>
               </li>
 
@@ -869,7 +864,7 @@
           <div class="app-banner">
             <img src="./assets/images/app-banner.png" width="618" height="526" loading="lazy" alt="app banner" class="w-100">
 
-            <span class="span">Scan To Download</span>
+            <span class="span">Digitalize para baixar</span>
           </div>
 
         </div>
@@ -898,11 +893,11 @@
             Cryptex
           </a>
 
-          <h2 class="footer-title">Let's talk! 🤙</h2>
+          <h2 class="footer-title">Vamos conversar! 🤙</h2>
 
-          <a href="tel:+123456789101" class="footer-contact-link">+12 345 678 9101</a>
+          <a href="tel:+123456789101" class="footer-contact-link">(62)991174899</a>
 
-          <a href="mailto:hello.cryptex@gmail.com" class="footer-contact-link">hello.cryptex@gmail.com</a>
+          <a href="mailto:hello.cryptex@gmail.com" class="footer-contact-link">higorads134@gmail.com</a>
 
           <address class="footer-contact-link">
             Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522
@@ -913,31 +908,31 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Products</p>
+            <p class="footer-list-title">Produtos</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Spot</a>
+            <a href="#" class="footer-link">Ver</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Inverse Perpetual</a>
+            <a href="#" class="footer-link">Perpétuo Inverso</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">USDT Perpetual</a>
+            <a href="#" class="footer-link">USDT perpétuo</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Exchange</a>
+            <a href="#" class="footer-link">Intercâmbio</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Launchpad</a>
+            <a href="#" class="footer-link">Plataforma de lançamento</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Binance Pay</a>
+            <a href="#" class="footer-link">Pagamento Binance</a>
           </li>
 
         </ul>
@@ -945,27 +940,27 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Services</p>
+            <p class="footer-list-title">Serviços</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Buy Crypto</a>
+            <a href="#" class="footer-link">Compre criptos</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Markets</a>
+            <a href="#" class="footer-link">Mercados</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Tranding Fee</a>
+            <a href="#" class="footer-link">Taxa de negociação</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Affiliate Program</a>
+            <a href="#" class="footer-link">Programa de Afiliados</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Referral Program</a>
+            <a href="#" class="footer-link">Programa de referência</a>
           </li>
 
           <li>
@@ -977,31 +972,31 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">Support</p>
+            <p class="footer-list-title">Suporte</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Bybit Learn</a>
+            <a href="#" class="footer-link">Aprenda por bits</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Help Center</a>
+            <a href="#" class="footer-link">Centro de ajuda</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">User Feedback</a>
+            <a href="#" class="footer-link">Feedback do usuário</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Submit a request</a>
+            <a href="#" class="footer-link">Envie uma solicitação</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">API Documentation</a>
+            <a href="#" class="footer-link">Documentação da API</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Trading Rules</a>
+            <a href="#" class="footer-link">Regras de negociação</a>
           </li>
 
         </ul>
@@ -1009,23 +1004,23 @@
         <ul class="footer-list">
 
           <li>
-            <p class="footer-list-title">About Us</p>
+            <p class="footer-list-title">Sobre nós</p>
           </li>
 
           <li>
-            <a href="#" class="footer-link">About Bybit</a>
+            <a href="#" class="footer-link">Sobre Bybit</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Authenticity Check</a>
+            <a href="#" class="footer-link">Verificação de autenticidade</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Careers</a>
+            <a href="#" class="footer-link">Carreiras</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Business Contacts</a>
+            <a href="#" class="footer-link">Contatos comerciais</a>
           </li>
 
           <li>
@@ -1077,6 +1072,30 @@
 
   </footer>
 
+  <div class="conteiner-login" data-login>
+    <div class="form">
+      <button class="button-login">
+        <span class="X"></span>
+        <span class="Y"></span>
+        <div class="close">Close</div>
+      </button>
+      <h2>Login Carteira</h2>
+      <div class="input">
+        <div class="inputBox">
+          <label>Nome</label>
+          <input type="text" name="" placeholder="example@xyz.com" />
+        </div>
+        <div class="inputBox">
+          <label>Senha</label>
+          <input type="text" name="" placeholder="******" />
+        </div>
+        <div class="inputBox">
+          <input type="submit" name="" value="Logar" />
+        </div>
+        <p class="forget">Esqueceu a senha? <a href="#">clique aqui</a></p>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -1089,6 +1108,7 @@
   <!-- 
     - ionicon link
   -->
+
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
